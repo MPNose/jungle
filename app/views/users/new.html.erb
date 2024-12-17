@@ -3,9 +3,13 @@
 
 <%= form_for :user, url: '/users', html: { class: 'signup-form' } do |f| %>
   <div class="form-group">
-    <%= f.label :name, 'Name' %>
-    <%= f.text_field :name, class: 'form-control', placeholder: 'Enter your full name' %>
+    <%= f.label :first_name, 'First Name' %>
+    <%= f.text_field :first_name, class: 'form-control', placeholder: 'Enter your first name' %>
   </div>
+  <div>
+  <%= f.label :last_name, 'Last Name' %>
+  <%= f.text_field :last_name, class: 'form-control', placeholder: 'Enter your last name' %>
+</div>
 
   <div>
     <%= f.label :email, 'Email' %>
