@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example, through the modification and addition of functionality to the app. 
 
 ## Setup
 
@@ -29,3 +29,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+!["Shopping Cart](https://github.com/MPNose/jungle/blob/master/docs/shopping_cart.png?raw=true)
+!["Admin Dashboard"](https://github.com/MPNose/jungle/blob/master/docs/admin_dashboard.png?raw=true)
+!["Products Page"](https://github.com/MPNose/jungle/blob/master/docs/products_page.png?raw=true)
+!["Signup Page"](https://github.com/MPNose/jungle/blob/master/docs/signup_page.png?raw=true)
